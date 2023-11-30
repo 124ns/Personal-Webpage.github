@@ -1,12 +1,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap");
 
-html {
-  
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
-  }
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +8,15 @@ html {
     font-family: 'poppins', sans-serif;
     scroll-behavior: smooth;
 }
+
+html {
+    font-size: 100%;
+  
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+  }
+
 
 body{
    background-image: linear-gradient(to right top, #1f8d97, #0085ac, #4278b6, #7964ab, #a14c8a, #a83d70, #a83154, #a12c37, #95222a, #88181e, #7c0e12, #6f0202);
