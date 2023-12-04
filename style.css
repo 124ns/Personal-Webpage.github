@@ -50,7 +50,6 @@ nav{
     align-items: center;
     flex-wrap: wrap;
     padding: 5px 0;
-
 }
 .logo{
     width: 150px;
@@ -193,6 +192,21 @@ h2{
 /*https://bytewebster.com/*/
 
 
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(to right top, #1f8d97, #0085ac, #4278b6, #7964ab, #a14c8a, #a83d70, #a83154, #a12c37, #95222a, #88181e, #7c0e12, #6f0202); */
+  overflow: hidden;
+} 
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+  }
 
 .swiper {
   width: 100%;
